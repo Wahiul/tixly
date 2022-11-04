@@ -1,0 +1,408 @@
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Prata', serif;
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0;
+    padding: 0;
+}
+/* header part */
+header{
+    padding: 30px 0;
+    background: #FDFDFD;
+}
+.header_wrapper{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text{
+    width: 20%;
+}
+.text h1{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Prata', serif;
+    cursor: pointer;
+    transition: .4s all ease-in-out;
+}
+.text h1:hover{
+    font-size: 33px;
+}
+nav{
+    width: 80%;
+}
+nav ul{
+    display: flex;
+    justify-content: end;
+}
+nav ul li{
+    margin-left: 30px;
+    list-style: none;
+}
+nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #61605F;
+    transition: .4s all ease-in-out;
+    display: block;
+    height: 40px;
+    padding: 0 10px;
+    line-height: 40px;
+    border-bottom: 2px solid #CD104D;
+}
+nav ul li a i{
+    margin-right: 5px;
+}
+nav ul li a:hover{
+    color: #CD104D;
+    font-weight: 600;
+    font-size: 17px;
+    height: 33px;
+}
+/* banner part */
+.banner_section{
+    background-image: url(../images/banner.png);
+    min-height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.banner_content{
+    width: 90%;
+    margin: auto;
+}
+.banner_content h1{
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Prata', serif;
+    color: #2E2E2E;
+}
+.banner_content p{
+    width: 30%;
+    margin: 25px 0 55px 0;
+    color: #61605F;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+.banner_content button{
+    border: 0px solid #000;
+    padding: 18px 40px;
+    color: #ffffff;
+    background: #000;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: .4s all ease-in-out;
+}
+.banner_content button:hover{
+    background: #CD104D;
+    font-size: 14px;
+}
+/* accessories part */
+.accessories_section{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+.accessories_content{
+    text-align: center;
+}
+.accessories_text{
+    
+}
+.accessories_text h1{
+    font-size: 42px;
+    font-weight: 400;
+    font-family: 'Prata', serif;
+    color: #2E2E2E;
+}
+.accessories_text p{
+    color: #61605F;
+    font-family: 'Montserrat', sans-serif;
+    margin: 15px 0 60px 0;
+}
+.images_wrapper{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.accessories_images{
+    width: 32%;
+    position: relative;
+}
+.images_item{
+    
+}
+.images_item img{
+    width: 100%;
+    border-radius: 3px;
+}
+.accessories_images button{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #000;
+    border: 0px solid #000;
+    font-family: 'Montserrat', sans-serif;
+    padding: 18px 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .4s all ease-in-out;
+}
+.accessories_images button:hover{
+    background: #CD104D;
+    font-size: 14px;
+}
+/* discover part */
+.discover_section{
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+}
+.discover_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.discover_text{
+    width: 45%;
+    box-shadow: 5px 5px 12px #000;
+    border-radius: 3px;
+    padding: 20px 20px;
+}
+.discover_text h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.discover_text h1{
+    font-family: 'Prata', serif;
+    margin: 30px 0;
+    font-size: 40px;
+    font-weight: 400;
+    color: #2E2E2E;
+}
+.discover_text p{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 40px;
+}
+.discover_text button{
+    font-family: 'Montserrat', sans-serif;
+    background: none;
+    border: 0px solid #000;
+    border-radius: 3px;
+    background: #000;
+    color: #ffffff;
+    padding: 17px 40px;
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .4s all ease-in-out;
+}
+.discover_text button:hover{
+    background: #CD104D;
+    font-size: 17px;
+}
+.discover_image{
+
+}
+.discover_image img{
+    border-radius: 3px;
+}
+/* gallery part */
+.gallery_section{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0 120px 0;
+}
+.gallery_wrapper{
+    text-align: center;
+}
+.gallery_wrapper h1{
+    font-family: 'Prata', serif;
+    font-size: 42px;
+    font-weight: 400;
+}
+.gallery_images_part{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.gallery_images_item{
+    width: 23%;
+    position: relative;
+}
+.gallery_images_item img{
+    width: 100%;
+    cursor: pointer;
+}
+.gallery_images_item::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 99%;
+    background: #181818;
+    opacity: .4;
+    transition: .7s all ease-in-out;
+}
+.gallery_images_item:hover::before{
+    width: 100%;
+}
+.gallery_wrapper button{
+    font-family: 'Montserrat', sans-serif;
+    background: none;
+    border: 0px solid #000;
+    border-radius: 3px;
+    background: #000;
+    color: #ffffff;
+    padding: 17px 45px;
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .4s all ease-in-out;
+}
+.gallery_wrapper button:hover{
+    background: #CD104D;
+    font-size: 17px;
+}
+/* footer part */
+footer{
+    background: #181818;
+    padding: 30px 0;
+}
+.footer_section{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_one{
+    width: 15%;
+    box-shadow: 1px 1px 5px #000;
+    padding: 20px 0 20px 30px;
+}
+.footer_text{
+    
+}
+.footer_text h1{
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Prata', serif;
+}
+.footer_text h3{
+    color: #ffffff;
+    margin: 10px 0 30px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.footer_one ul{
+    list-style: none;
+    display: flex;
+}
+.footer_one ul li{
+    color: #ffffff;
+    width: 20%;
+}
+.footer_one ul li i{
+    font-size: 16px;
+    cursor: pointer;
+    background: #CD104D;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    transition: .4s all ease-in-out;
+    text-shadow: 1px 1px 0px #000;
+}
+.footer_one ul li i:hover{
+    color: #000;
+    background: #ffffff;
+}
+.footer_two{
+    width: 15%;
+}
+.footer_two h1{
+    text-transform: uppercase;
+    font-family: 'Prata', serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.footer_two a{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    transition: .4s all ease-in-out;
+}
+.footer_two a:hover{
+    color: #CD104D;
+}
+.email_content{
+    box-shadow: 2px 2px 10px #000;
+    padding: 20px 50px;
+}
+.email_content h1{
+    color: #ffffff;
+    font-family: 'Prata', serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+form{
+    
+}
+form input{
+    width: 100%;
+}
+form input[type="email"]{
+    background: #A5A7A9;
+    margin-bottom: 15px;
+    padding: 15px 0 15px 15px;
+    border-radius: 2px;
+    border: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+form input[type="submit"]{
+    width: inherit;
+    padding: 16px 35px 16px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 2px;
+    transition: .4s all ease-in-out;
+    cursor: pointer;
+}
+form input[type="submit"]:hover{
+    background: #CD104D;
+    color: #ffffff;
+}
